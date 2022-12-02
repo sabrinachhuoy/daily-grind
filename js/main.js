@@ -27,7 +27,7 @@ function coffeeTemplate(coffee){
     return `<p> 
         <img src="images/${coffee.pic}" alt="${coffee.alt}" id="coffee" />
         <strong>${coffee.day} Coffee Special:</strong> ${coffee.day}'s daily coffee special is ${coffee.name}, ${coffee.desc}!
-    </p>`;
+    </p> <p><strong>Info:</strong> ${coffee.info}</p>`;
 }
 
 
@@ -64,7 +64,8 @@ switch (myDay){
             pic: "mocha.jpg",
             alt: "A picture of a mocha",
             day: "Sunday",
-            desc: `I like me some Mocha`
+            desc: `I like me some Mocha`,
+            info: `Try this tasty Mocha iced or hot! Ask for some mocha drizzle for an extra chocolate-y experience`
         };
     break;
 
@@ -76,7 +77,8 @@ switch (myDay){
             pic: "bubble-tea.jpg",
             alt: "A picture of a bubble tea",
             day: "Monday",
-            desc: `I like me some Bubble Tea`
+            desc: `I like me some Bubble Tea`,
+            info: `One of our most popular beverages at LargeBuck$! Comes in a variety of flavors like Strawberry to Black Sugar!`
         };
     break;
 
@@ -88,7 +90,8 @@ switch (myDay){
             pic: "caramel-latte.jpg",
             alt: "A picture of a caramel latte",
             day: "Tuesday",
-            desc: `Its cold, so a caramel latte sounds good!`
+            desc: `Its cold, so a caramel latte sounds good!`,
+            info: `Come try our Caramel latte! Extra Caramel Drizzle is the way to go!`
         };
     break;
 
@@ -100,7 +103,8 @@ switch (myDay){
             pic: "cold-brew.jpg",
             alt: "A picture of a cold brew",
             day: "Wednesday",
-            desc: `I need extra energy, so I'll have a coldbrew!`
+            desc: `I need extra energy, so I'll have a coldbrew!`,
+            info: `Feeling tired and need some energy? Try our Coldbrew. We steep our Coldbrew for 20 hours which enhances your coffee experience!`
         };
     break;
 
@@ -112,7 +116,8 @@ switch (myDay){
             pic: "drip.jpg",
             alt: "A picture of a drip",
             day: "Thursday",
-            desc: `Feeling drippy so I ordered drip!`
+            desc: `Feeling drippy so I ordered drip!`,
+            info: `For the folks who need a boost of confidence, drip coffee is for you!`
         };
     break;
 
@@ -124,7 +129,8 @@ switch (myDay){
             pic: "frappaccino.jpg",
             alt: "A picture of a frappaccino",
             day: "Friday",
-            desc: `I'm feeling fun so I ordered a frappaccino!`
+            desc: `I'm feeling fun so I ordered a frappaccino!`,
+            info: `Nothing like a yummy frappaccino to end your week! This blended beverages comes in Caramel, Mocha, Strawberry, White mocha, you name it we have it!`
         };
     break;
 
@@ -136,7 +142,8 @@ switch (myDay){
             pic: "pumpkin-spice-latte.jpg",
             alt: "A picture of a Pumpkin Spice Latte",
             day: "Saturday",
-            desc: `I'm feeling fun so I ordered a Pumpkin Spice Latte!`
+            desc: `I'm feeling fun so I ordered a Pumpkin Spice Latte!`,
+            info: `PSl is year round at LargeBuck$ so you'll never have to miss it!`
         };
     break;
     
